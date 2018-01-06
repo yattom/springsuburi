@@ -15,7 +15,7 @@ public class NoteController {
     @Autowired
     private NoteRepository noteRepository;
 
-    @RequestMapping("/notes")
+    @RequestMapping("/")
     @ResponseBody
     String home() {
         Note note = new Note();
